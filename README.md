@@ -22,9 +22,9 @@ AD7606模拟输入：8路正负5V输入，编号V1~V8
 树莓派物理引脚23(GPIO14,SCLK)接AD7606的RD/SCLK  
 树莓派物理引脚7(GPIO7)接AD7606的RST引脚，用来复位AD7606,H有效  
 树莓派物理引脚11(GPIO0)接AD7606的CA//CB引脚(两者并联)，上升沿启动转换  
-AD7606空引脚：FD、BUSY 
-树莓派5V引脚接AD7606的5V供电。 
-接地引脚D15-D9, D6-D0，RANGE，OS2-OS0  
+AD7606空引脚：FD、BUSY   
+树莓派5V引脚接AD7606的5V供电。   
+接地引脚D15-D9, D6-D0，RANGE，OS2-OS0   
 
 **MAX9814麦克风模块的相关接线：**
 > 两个MAX9814模块的 OUT分别接AD706的 AIN1和AIN2  
